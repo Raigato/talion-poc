@@ -19,7 +19,7 @@ const ArticleThumbnail = ({ article }: Props) => {
         src={article.image}
         alt={article.title}
         fill
-        className="-z-10 transition-transform duration-300 group-hover:scale-110"
+        className="-z-10 object-cover transition-transform duration-300 group-hover:scale-110"
       />
       <div className="flex h-full items-end">
         <div className="w-full bg-black/80 p-2 text-right">
