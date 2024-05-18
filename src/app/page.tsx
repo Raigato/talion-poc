@@ -1,5 +1,11 @@
+import VideoSection from '@/components/HomePage/VideoSection'
+
 const HomePage = () => {
-  return <h1>Home</h1>
+  return (
+    <main className="container mx-auto px-4">
+      <VideoSection />
+    </main>
+  )
 }
 
 export default HomePage

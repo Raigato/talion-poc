@@ -1,4 +1,4 @@
-import Discord from '@/assets/discord'
+import Discord from '@/assets/Discord'
 import TwitterX from '@/assets/TwitterX'
 import { HandHeart, Instagram, Twitch, Youtube } from 'lucide-react'
 import Link from 'next/link'
