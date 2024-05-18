@@ -21,7 +21,7 @@ const ArticlesSection = ({ game }: Props) => {
   if (filteredArticles.length === 0) return null
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-8">
       <SectionTitle>Dernier Articles - {GAME_NAME[game]}</SectionTitle>
       <ul className="grid gap-4 lg:grid-cols-3">
         {filteredArticles.map((article) => (
