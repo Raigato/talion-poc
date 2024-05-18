@@ -5,6 +5,7 @@ const HomePage = () => {
   return (
     <main className="container mx-auto flex flex-col gap-16 px-4 py-8">
       <ArticlesSection game="diablo-4" />
+      <ArticlesSection game="last-epoch" />
       <VideoSection />
     </main>
   )

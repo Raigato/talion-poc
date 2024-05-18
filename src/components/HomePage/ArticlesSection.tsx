@@ -18,6 +18,8 @@ const ArticlesSection = ({ game }: Props) => {
     .filter((article) => article.game === game)
     .slice(0, MAX_ARTICLES)
 
+  if (filteredArticles.length === 0) return null
+
   return (
     <div className="flex flex-col gap-4">
       <SectionTitle>Dernier Articles - {GAME_NAME[game]}</SectionTitle>
