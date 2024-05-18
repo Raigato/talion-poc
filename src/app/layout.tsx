@@ -1,3 +1,5 @@
+import Navbar from '@/components/Navbar'
+import { cn } from '@/utils/cn'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ReactNode } from 'react'
@@ -15,7 +17,10 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Props) => {
   return (
     <html lang="fr">
-      <body className={inter.className}>{children}</body>
+      <body className={cn(inter.className, 'bg-zinc-900 text-white')}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
