@@ -1,8 +1,10 @@
+import ArticlesSection from '@/components/HomePage/ArticlesSection'
 import VideoSection from '@/components/HomePage/VideoSection'
 
 const HomePage = () => {
   return (
-    <main className="container mx-auto px-4">
+    <main className="container mx-auto flex flex-col gap-16 px-4 py-8">
+      <ArticlesSection game="diablo-4" />
       <VideoSection />
     </main>
   )
