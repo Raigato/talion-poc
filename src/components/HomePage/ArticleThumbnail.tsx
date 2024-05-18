@@ -12,7 +12,7 @@ const ArticleThumbnail = ({ article }: Props) => {
   return (
     <Link
       href={`/${article.game}/${article.slug}`}
-      className="group relative block h-60 overflow-hidden rounded-lg shadow-lg"
+      className="group relative block h-56 overflow-hidden rounded-lg shadow-lg"
       title="Lire l'article complet"
     >
       <Image
