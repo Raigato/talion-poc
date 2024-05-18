@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import SocialBar from '@/components/SocialBar'
 import { cn } from '@/utils/cn'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -20,6 +21,7 @@ const RootLayout = ({ children }: Props) => {
       <body className={cn(inter.className, 'bg-zinc-900 text-white')}>
         <Navbar />
         {children}
+        <SocialBar />
       </body>
     </html>
   )
